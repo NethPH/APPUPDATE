@@ -2,8 +2,8 @@ const express = require('express');
 /*const axios = require('axios');
 const path = require('path');
 const crypto = require('crypto');
-const bodyParser = require('body-parser');
-*/const app = express();
+*/const bodyParser = require('body-parser');
+const app = express();
 
 app.use(express.json());
 app.use(bodyParser.json());
