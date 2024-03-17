@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 
 app.get('/', (req, res) => {
 res.send("Created by @HttpNeth");
-}
+});
         
 app.get('/approved_clients', (req, res) => {
 const hi = {
