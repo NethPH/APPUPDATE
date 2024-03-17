@@ -9,6 +9,10 @@ app.use(express.json());
 app.use(bodyParser.json());
 //app.use(express.static(path.join(__dirname, 'public')));
 
+app.get('/', (req, res) => {
+res.send("Created by @HttpNeth");
+}
+        
 app.get('/approved_clients', (req, res) => {
 const hi = {
   "device_id_enable": true,
